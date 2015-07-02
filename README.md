@@ -4,7 +4,7 @@ A workflow for searching and opening Kibana dashboards based on the great [alfre
 
 # Setup
 
-Install alfred2-kibana-workflow.
+Clone the repo and run 'rake install'
 
 Configure the kibana_host and elasticsearch_host in the workflow preferences.
 
