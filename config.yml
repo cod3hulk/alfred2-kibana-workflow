@@ -1,0 +1,13 @@
+# bundle_id = "domain.id"
+# path is the relative path to the workflow in the project root
+---
+path: workflow
+domain: me.tomave
+id: alfred2-kibana-workflow
+# If you are using Alfred's advanced Dropbox sync, indicate the path shown in
+# Alfred Preferences > Advanced > Syncing:
+dropbox: ~/Dropbox/Alfred
+
+hosts: 
+  kibana: http://immonet:mobilien@vlog.immonet.asv.local
+  elasticsearch: http://vlog.immonet.asv.local:9200
